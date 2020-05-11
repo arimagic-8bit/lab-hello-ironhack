@@ -32,3 +32,24 @@ h1 {
 button {
   margin-top: 25px;
 }
+
+.components-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.component-img {
+  width: 200px;
+}
+
